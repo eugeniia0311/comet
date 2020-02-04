@@ -1,0 +1,190 @@
+body {
+	margin: 0;
+	min-height: 100vh;
+	background: linear-gradient(-30deg, #31233f, #121121);	
+}
+
+*{
+	box-sizing: border-box;
+}
+
+.comet{
+	position: absolute;
+	top: 0;
+	left: 300px;
+	width: 220px;
+	height: 650px;
+}
+
+.comet__tail{
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	background:linear-gradient( #31508c, #71affe, #71affe,#71affe) ;
+}
+
+.comet__body{
+	background-color: #71affe;
+	width:220px;
+	position: absolute;
+	bottom: -110px;
+	width: 220px;
+	border-radius: 50%;
+	height: 220px;
+}
+
+.shining{
+	height: 310px;
+	background-color: #9a1e8f;
+	width:310px;
+	position: absolute;
+	bottom: -37px;
+	right: 50%;
+	transform: translateX(50%);
+	border-radius: 50%;
+	opacity: 20%;
+}
+
+.particle{
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: white;
+}
+
+.s{
+	width: 10px;
+	height: 10px;
+}
+
+.m{
+	width: 15px;
+	height: 10px;
+}
+
+.l{
+	width: 20px;
+	height: 20px;
+}
+
+.first{
+	position: absolute;	
+	top:90px;
+}
+
+.core{
+	height: 200px;
+	background-color: #9a1e8f;
+	width:200px;
+	position: absolute;
+	right: 50%;
+	transform: translateX(50%);
+	border-radius: 50%;
+}
+
+.core__tail{
+
+}
+
+.core__tail.-red{
+	position: absolute;
+	width: 32px;
+	/*height: 400px;*/
+	background-color: #9a1e8f;
+	display: block;
+	content: "";
+}
+
+.core__tail.-red:before{
+	display: block;
+	content: "";
+	width:32px;
+	height: 32px;
+	border-radius: 50%;
+	background-color: #9a1e8f;
+	position: absolute;
+	top:-15px;
+}
+
+
+.core__tail.-blue{
+	position: absolute;
+	width: 19px;
+	/*height: 300px;*/
+	background-color: #71affe;
+}
+
+.core__tail.-blue:before{
+	display: block;
+	content: "";
+	width:19px;
+	height: 19px;
+	border-radius: 50%;
+	background-color: #71affe;
+	position: absolute;
+	bottom:-10px;
+}
+
+.one{
+	position: absolute;
+	bottom: 130px;
+	left:7px;
+	height: 300px;
+}
+
+.two{
+	position: absolute;
+	bottom: 130px;
+	left:58px;
+	height:500px;
+}
+
+.three{
+	position: absolute;
+	bottom: 130px;
+	left:107px;
+	height:180px;
+}
+
+.four{
+	position: absolute;
+	bottom: 130px;
+	left:159px;
+	height:360px;
+}
+
+.five{
+	position: absolute;
+	left:39px;
+	height: 270px;
+	top:-230px;
+}
+
+.six{
+	position: absolute;
+	left:90px;
+	height: 240px;
+	top:-250px;
+}
+
+.seven{
+	position: absolute;
+	left:140px;
+	height: 240px;
+	top:-180px;
+}
+
+.patch{
+	position: absolute;
+	left:90px;
+	height: 80px;
+	top:-10px;
+	background-color: #9a1e8f;
+	width: 32px;
+	z-index: -1;
+
+}
